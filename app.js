@@ -17,7 +17,7 @@ var authroutes       = require("./routes/index");
 app.use(express.static(__dirname + "/public"));
 app.use(bodyparser.urlencoded({extended:true}));
 //mongoose setup for connection
-mongoose.connect("mongodb://localhost/yelp_camp", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://Abilash:3vc16ec002@cluster0-jmso8.mongodb.net/test?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex : true});
 app.set("view engine", "ejs");
 app.use(methodOverride("_method"));
 app.use(flash());
