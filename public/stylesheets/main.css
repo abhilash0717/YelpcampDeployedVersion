@@ -11,4 +11,10 @@
 #delete {
 	display:inline;
 }
-  
+  .jumbotron {
+ 
+background-position: center;
+	text-align:center;
+	
+  background-image: url("https://images.unsplash.com/photo-1476611338391-6f395a0ebc7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80");
+}
